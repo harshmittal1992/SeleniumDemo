@@ -8,16 +8,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import PageObjects.LoginPage;
-import Utils.BrowserSelector;
-import Utils.ReadExcelData;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import junit.framework.Assert;
+import pageobjects.LoginPage;
+import utils.BrowserSelector;
+import utils.ReadExcelData;
 
-public class UserLogin extends BrowserSelector {
+public class UserLoginTest extends BrowserSelector {
 	LoginPage loginPg = new LoginPage(driver);
 
 	@Given("user is on the log in page")

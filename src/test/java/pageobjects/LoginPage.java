@@ -1,4 +1,4 @@
-package PageObjects;
+package pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;*/
 import org.openqa.selenium.WebElement;
 
-import Utils.BrowserSelector;
+import utils.BrowserSelector;
 
 public class LoginPage {
 	
