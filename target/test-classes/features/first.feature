@@ -8,6 +8,8 @@ Feature: Test the login and Register functions of Mercury Tours application
   And User enters valid passoword
   When User clicks the login button
   Then login success message is displayed
+  
+  
  # When User enters the correct username
   #When user enters the correct passowrd
  # Then log in success message is displayed

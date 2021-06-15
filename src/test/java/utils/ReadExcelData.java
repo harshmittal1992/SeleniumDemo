@@ -27,7 +27,7 @@ public class ReadExcelData {
 		for (int i = 1; i < rowCount; i++) {
 			// Getting the row
 			Row r = s.getRow(i);
-			// every row has first is field name and another is value.
+			// first is field name and another is value.
 			String fieldName = r.getCell(0).getStringCellValue();
 			String fieldValue = r.getCell(1).getStringCellValue();
 			
